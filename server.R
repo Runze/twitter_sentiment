@@ -126,7 +126,7 @@ plot_map = function(dat, title) {
                          breaks = seq(0, 1, .25), 
                          labels = c('Most\nNegative', 'Negative', 'Neutral', 'Positive', 'Most\nPositive')) +
     labs(fill = 'Sentiment\n') + 
-    xlab('Longitude') + ylab('Lattitude') +
+    xlab('Longitude') + ylab('Latitude') +
     ggtitle(title)
   
   return(map_plot)

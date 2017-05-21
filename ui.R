@@ -25,5 +25,6 @@ shinyUI(fluidPage(theme='bootstrap.min.css',
     p(htmlOutput('sample_tweets'))
   ),
   
-  p(tags$a(href = 'http://www.runzemc.com', 'www.runzemc.com'))
+  p(tags$a(href = 'http://www.runzemc.com', 'www.runzemc.com')),
+  p(tags$a(href = 'https://github.com/Runze/twitter_sentiment', 'https://github.com/Runze'))
 ))
